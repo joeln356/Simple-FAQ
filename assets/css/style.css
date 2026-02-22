@@ -1,20 +1,59 @@
- * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
-
+h1, h2, strong{
+    color: black;
+}
 body {
-height: 100vh;
+    height: 100vh;
+    color: rgb(55, 65, 81);
 }
+a{
+    text-decoration: none
+}
+/* mobile first */
+/* Header */
+header{
+    padding: 40px 30px 20px 30px;
+    text-align: center;
+}
+header > h1{
 
+    font-size: 32px;
+}
+/* End Header */
+
+/* Main */
+main{
+    background-color: #F9FAFC;
+    padding: 0 40px;
+}
+h3{
+    padding-top: 50px;
+
+}
+p{
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+ol, ul{
+    padding-left: 20px;
+    line-height: 2;
+}
 .author-info {
-font-size: 14px;
-text-align: center;
-margin-top: 16px;
-color: rgb(55, 65, 81);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    
 }
-
+footer{
+    padding-bottom: 20px;
+    margin: 0 5px;
+}
 .author-info a {
-text-decoration: none;
+    text-decoration: none;
 }
