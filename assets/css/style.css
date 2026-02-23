@@ -47,10 +47,6 @@ ol, ul{
     padding-left: 20px;
     line-height: 2;
 }
-.author-info {
-    font-size: 14px;
-    text-align: center; 
-}
 footer{ 
     padding: 20px 5px;
     background-color: white;
@@ -58,7 +54,16 @@ footer{
 .author-info a {
     text-decoration: none;
 }
-
+.author-info {
+    font-size: 14px;
+    text-align: center; 
+}
+@media screen and (min-width:768px) and (max-width:1020px) {
+    main{
+        height: 77vh;
+    }
+}
+/* ipad/notbook  */
 @media screen and (min-width: 1024px) {
     header > h1{
         font-size: 32px;
@@ -69,9 +74,9 @@ footer{
         flex: 1;
     }
 }
+/* Descktop */
 @media screen and (min-width:1280px){
     main{
-        
         padding: 0 300px;
         flex: 1;
     }
